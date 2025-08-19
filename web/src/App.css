@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.page { max-width: 960px; margin: 0 auto; padding: 16px; }
+.topbar { display: flex; gap: 8px; padding: 8px; border-bottom: 1px solid #333; margin-bottom: 12px; }
+.topbar button.active { background: #222; }
+.menu { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
+.card { border: 1px solid #333; border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 6px; }
+.card .title { font-weight: 600; }
+.card .desc { color: #aaa; min-height: 38px; }
+.card .price { margin-top: 4px; font-weight: 600; }
+.card .actions { display: flex; align-items: center; gap: 8px; }
+.notes { margin-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+.notes textarea { min-height: 80px; }
+.footer { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; border-top: 1px solid #333; margin-top: 12px; }
+.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.list { display: flex; flex-direction: column; gap: 8px; }
+.order { border: 1px solid #444; border-radius: 8px; padding: 10px; display: flex; align-items: center; justify-content: space-between; }
+.order.ready { border-color: #2e7d32; background: #1b5e201a; }
+.order .buttons { display: flex; gap: 6px; }
